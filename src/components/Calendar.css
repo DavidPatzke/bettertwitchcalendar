@@ -1,0 +1,93 @@
+.calendar-container {
+  background-color: lightgray;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 2rem 1fr 1fr 1fr 1fr 1fr; 
+    border: 1px solid #000;
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "A1 A2 A3 A4 A5 A6 A7"
+      "B1 B2 B3 B4 B5 B6 B7"
+      "C1 C2 C3 C4 C5 C6 C7"
+      "D1 D2 D3 D4 D5 D6 D7"
+      "J1 J2 J3 J4 J5 J6 J7"
+      "F1 F2 F3 F4 F5 F6 F7"
+      "G1 G2 G3 G4 G5 G6 G7"
+  }
+  .calendarField {
+    min-height: 100px;
+    background-color: white;
+  }
+
+  .calendarHeader {
+   
+  }
+
+  .calendarMonthPicker {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .A1 { grid-area: A1;}
+  .A2 { grid-area: A2;}
+  .A3 { grid-area: A3;}
+  .A4 { grid-area: A4;}
+  .A5 { grid-area: A5;}
+  .A6 { grid-area: A6;}
+  .A7 { grid-area: A7;}
+
+  .B1 { grid-area: B1;}
+  .B2 { grid-area: B2;}
+  .B3 { grid-area: B3;}
+  .B4 { grid-area: B4;}
+  .B5 { grid-area: B5;}
+  .B6 { grid-area: B6;}
+  .B7 { grid-area: B7;}
+
+  .C1 { grid-area: C1;}
+  .C2 { grid-area: C2;}
+  .C3 { grid-area: C3;}
+  .C4 { grid-area: C4;}
+  .C5 { grid-area: C5;}
+  .C6 { grid-area: C6;}
+  .C7 { grid-area: C7;}
+
+  .D1 { grid-area: D1;}
+  .D2 { grid-area: D2;}
+  .D3 { grid-area: D3;}
+  .D4 { grid-area: D4;}
+  .D5 { grid-area: D5;}
+  .D6 { grid-area: D6;}
+  .D7 { grid-area: D7;}
+
+  .J1 { grid-area: J1;}
+  .J2 { grid-area: J2;}
+  .J3 { grid-area: J3;}
+  .J4 { grid-area: J4;}
+  .J5 { grid-area: J5;}
+  .J6 { grid-area: J6;}
+  .J7 { grid-area: J7;}
+
+  .F1 { grid-area: F1;}
+  .F2 { grid-area: F2;}
+  .F3 { grid-area: F3;}
+  .F4 { grid-area: F4;}
+  .F5 { grid-area: F5;}
+  .F6 { grid-area: F6;}
+  .F7 { grid-area: F7;}
+
+  .G1 { grid-area: G1;}
+  .G2 { grid-area: G2;}
+  .G3 { grid-area: G3;}
+  .G4 { grid-area: G4;}
+  .G5 { grid-area: G5;}
+  .G6 { grid-area: G6;}
+  .G7 { grid-area: G7;}
+
+.today {
+  background-color: lightgreen;
+}
